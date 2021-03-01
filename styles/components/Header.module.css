@@ -1,0 +1,41 @@
+.containerNav{
+    width: 100%;
+    background-color: var(--background-color);
+    color: var(--color);
+    
+
+}
+
+.containerNav nav p {
+    color: var(--color);
+    text-shadow: 0.1rem 0.1rem var(--color02);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-left: 2rem;
+}
+
+.containerNav nav {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.containerNav nav ul {
+    margin-right: 2rem;
+}
+
+.containerNav nav ul button {
+    border: none;
+    padding: 1rem 1rem;
+    background-color: var(--background-color);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color);
+}
+
+.containerNav nav ul button:hover {
+    background-color: var(--background-color02);
+    color: var(--color)
+}
