@@ -10,27 +10,24 @@ const Profile = () => {
                     <img src="img/foto.jpg" />
                 </div>
                 <div className={styles.containerSkills}>                    
-                        <div>
+                        <div className={styles.containerSkillsImg}>
                             <img src="svg/html.svg" />
-                        </div>
-                        <div>
                             <img src="svg/css.svg" />
-                        </div>
-                        <div>
                             <img src="svg/javascript.svg" />
                         </div>
+                        <p>Skills</p>
                 </div>
+                
             </div>
             <div className={styles.containerRight}>
+                <div className={styles.detalhe}>
                 <a href="https://github.com/azevgabriel">
                     <img src="svg/github.svg" />
                 </a>
                 <a href="https://www.linkedin.com/in/azevgabriel/">
                     <img src="svg/linkedin-logo.svg" />
                 </a>
-                <a href="#">
-                    <img src="svg/gmail.svg" />
-                </a>
+                </div>
             </div>  
             
         </div>

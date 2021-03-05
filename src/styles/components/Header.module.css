@@ -6,12 +6,16 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    border: 2px solid var(--background-color);
+    box-shadow: -0.4rem 0.4rem black;
 }
 
 .containerHeader p {    
     color: var(--color);
     text-shadow: 0.1rem 0.1rem var(--color02);
-    font-size: 3rem;
+    font-size: 2.5rem;
+    letter-spacing: .2rem;
+    word-spacing: -.6rem;
     font-weight: 600;
     margin: 0.4rem;
     border: 0.3rem dotted var(--color);
@@ -24,7 +28,7 @@
     padding: 1rem 1rem;
     background-color: var(--background-color03);
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 550;
     color: var(--color);
 }
 
