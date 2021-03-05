@@ -1,4 +1,4 @@
-<img style=(widht:75%) src="assets/intro.gif">
+<video style=(widht:75%) src="assets/intro.mp4">
 <h1 align="center">Exemple curriculum</h1>
 
 <p align="center">
