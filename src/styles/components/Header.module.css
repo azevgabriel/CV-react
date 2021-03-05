@@ -1,0 +1,43 @@
+.containerHeader{
+    width: 100%;
+    background-color: var(--background-color02);
+    color: var(--color);
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.containerHeader p {    
+    color: var(--color);
+    text-shadow: 0.1rem 0.1rem var(--color02);
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0.4rem;
+    border: 0.3rem dotted var(--color);
+    border-radius: 10px;
+}
+
+.containerHeader nav ul button {
+    border: none;
+    width: 100%;
+    padding: 1rem 1rem;
+    background-color: var(--background-color03);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color);
+}
+
+.containerHeader nav ul button:hover {
+    background-color: var(--background-color02);
+    color: var(--color)
+}
+
+.containerHeader nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    background-color: var(--background-color03);
+    width: 100%;
+}

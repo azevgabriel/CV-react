@@ -2,9 +2,9 @@ import styles from '../styles/components/Header.module.css'
 
 const Header = () => {
     return(
-        <div className={styles.containerNav}>
+        <div className={styles.containerHeader}>
+            <p>Gabriel Azevedo</p>
             <nav>
-                <p>Gabriel Azevedo</p>
                 <ul>
                     <button>Home</button>
                     <button>Sobre</button>
