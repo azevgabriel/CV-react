@@ -1,9 +1,50 @@
 .container {
-    background-color: brown;
+    background-color: chocolate;
 
     width: 51%;
     border: 2px solid var(--background-color02);
     border-radius: 5%;
     padding: 1rem;
     box-shadow: -0.4rem 0.4rem black;
+}
+
+.containerGoals {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerGoals h3 {
+    margin-bottom: .3rem;
+    align-self: center;
+    color: var(--color);
+}
+
+.containerLanguages h3 {
+    margin-bottom: .3rem;
+    align-self: center;
+    color: var(--color);
+}
+
+.containerGoals input {
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+.containerLanguages {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerLanguages div {
+    margin-right: 0.3rem;
+    margin-left: 0.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerLanguagesLevels div label {
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
 }
