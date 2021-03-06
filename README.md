@@ -1,4 +1,8 @@
-<video style=(widht:75%) src="assets/intro.mp4">
+<h2 align="center">Página Inicial</h1>
+<img src="public/img/Inicial.png">
+<h2 align="center">Onclick no Sobre</h1>
+<img  src="public/img/Sobre.png">
+
 <h1 align="center">Exemple curriculum</h1>
 
 <p align="center">
