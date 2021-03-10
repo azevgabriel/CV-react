@@ -1,7 +1,21 @@
+import { useContext } from 'react';
+import { HeaderContext } from '../contexts/HeaderContext';
 import styles from '../styles/components/Profile.module.css';
+import ContatoBar from './Bar/ContatoBar';
+import FormacaoBar from './Bar/FormacaoBar';
+import { HomeBar } from './Bar/HomeBar';
+import ProjetosBar from './Bar/ProjetosBar';
+import SobreBar from './Bar/SobreBar';
 
 const Profile = () => {
     
+    const {
+        goHome,
+        goSobre,
+        goProjetos,
+        goFormacao,
+        goContato
+    } = useContext(HeaderContext);
     
     return(
         <div className={styles.container}>
@@ -9,25 +23,13 @@ const Profile = () => {
                 <div className={styles.containerProfile}>
                     <img src="img/foto.jpg" />
                 </div>
-                <div className={styles.containerSkills}>                    
-                        <div className={styles.containerSkillsImg}>
-                            <img src="svg/html.svg" />
-                            <img src="svg/css.svg" />
-                            <img src="svg/javascript.svg" />
-                        </div>
-                        <p>Skills</p>
-                </div>
-                
             </div>
             <div className={styles.containerRight}>
-                <div className={styles.detalhe}>
-                <a href="https://github.com/azevgabriel">
-                    <img src="svg/github.svg" />
-                </a>
-                <a href="https://www.linkedin.com/in/azevgabriel/">
-                    <img src="svg/linkedin-logo.svg" />
-                </a>
-                </div>
+                {goHome && <HomeBar/>}
+                {goSobre && <SobreBar/>}
+                {goProjetos && <ProjetosBar/>}
+                {goFormacao && <FormacaoBar/>}
+                {goContato && <ContatoBar/>}
             </div>  
             
         </div>

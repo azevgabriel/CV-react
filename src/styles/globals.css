@@ -12,3 +12,6 @@
   --background-color02: #273b09;
   --background-color03: #002400
 }
+
+::-webkit-scrollbar{
+}
