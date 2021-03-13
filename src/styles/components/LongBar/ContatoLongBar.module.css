@@ -1,16 +1,12 @@
 .container {
-    background-color: darkorchid;
+    background-color: lawngreen;
     display: flex;
     flex-direction: column;
-    height: 80%;
-    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 3%;
     align-content: center;
     justify-content: center;
     border-radius: 20%; 
     box-shadow: -0.3rem 0.3rem black;
-}
-
-.container img{
-    width: 100%;
-    padding: 10%;
 }

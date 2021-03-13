@@ -3,7 +3,7 @@ import styles from '../../styles/components/Bar/HomeBar.module.css'
 export const HomeBar = () => {
     return(
         <div className={styles.container}>
-            Hello World!
+            <img className={styles.rotate} src="svg/react.svg"/>
         </div>  
     );
 }

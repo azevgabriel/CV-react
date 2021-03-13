@@ -16,7 +16,9 @@ export default function Home() {
          <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet"/>
         </Head>
         <HeaderProvider>
-        <Header />
+        <div className={styles.containerNav}>
+          <Header />
+        </div>
         <div className={styles.containerInfo}>
           <Profile />
           <Info />  

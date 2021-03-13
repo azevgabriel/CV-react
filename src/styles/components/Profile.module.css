@@ -1,11 +1,12 @@
-.container {
+.container{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+
     width: 47%;
     height: 100%;
-    padding: 1rem;
+    padding: 1%;
     background: linear-gradient(
         to bottom left,
         var(--background-color),
@@ -17,24 +18,33 @@
     box-shadow: -0.4rem 0.4rem black;
 }
 
+.containerRowOne {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+    height: 70%; 
+    align-items: center;
+}
+
 .containerLeft {
+    width: 73%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-b;
     align-content: center;
 }
 
-.containerProfile {
-    display: flex;
-
-}
-
-.containerProfile img {
-    width: 18rem;
+.containerLeft img {
+    width: 100%;
     border-radius: 50%;
-    border: 0.6rem Solid var(--color02);
     box-shadow: -0.3rem 0.3rem black;
 }
 
+.containerRight {
+    width: 22%;
+}
+
+.containerBottom {
+    height: 25%; 
+}
 

@@ -38,14 +38,6 @@ const Sobre = () => {
                     </div> 
                 </div>
                 <div>
-                    <label>C</label>
-                    <div className={styles.containerLanguagesLevels}>
-                    <div><input type="checkbox" disabled/><label>Desejável</label></div> 
-                    <div><input type="checkbox" checked/><label>Noob</label></div> 
-                    <div><input type="checkbox" disabled/><label>Intermediário ++</label></div> 
-                    </div> 
-                </div>
-                <div>
                     <label>Assembly</label>
                     <div className={styles.containerLanguagesLevels}>
                     <div><input type="checkbox" disabled/><label>Desejável</label></div> 
@@ -58,14 +50,6 @@ const Sobre = () => {
                     <div className={styles.containerLanguagesLevels}>
                     <div><input type="checkbox" disabled/><label>Desejável</label></div> 
                     <div><input type="checkbox" checked/><label>Noob</label></div> 
-                    <div><input type="checkbox" disabled/><label>Intermediário ++</label></div> 
-                    </div> 
-                </div>
-                <div>
-                    <label>Java</label>
-                    <div className={styles.containerLanguagesLevels}>
-                    <div><input type="checkbox" checked/><label>Desejável</label></div> 
-                    <div><input type="checkbox" disabled/><label>Noob</label></div> 
                     <div><input type="checkbox" disabled/><label>Intermediário ++</label></div> 
                     </div> 
                 </div>
