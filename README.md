@@ -31,7 +31,6 @@ $ $ git clone <https://github.com/azevgabriel/CV-react>
 $ cd CV-react
 
 # Instale as dependências
-$ npm install
 $ yarn install
 
 # Execute a aplicação
