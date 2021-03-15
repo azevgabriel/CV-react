@@ -42,3 +42,11 @@
     color: var(--color);
     margin: 2%;
 }
+
+@media (max-width: 768px){
+    .container {
+        margin-top: 2rem;
+        width: 75%;
+        height: 35rem;
+    }
+}

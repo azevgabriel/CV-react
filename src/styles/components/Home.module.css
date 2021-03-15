@@ -9,3 +9,11 @@
     box-shadow: -0.4rem 0.4rem black;
 
 }
+
+@media (max-width: 768px){
+    .container {
+        margin-top: 2rem;
+        width: 75%;
+        height: 35rem;
+    }
+}

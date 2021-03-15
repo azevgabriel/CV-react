@@ -1,4 +1,7 @@
 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     background-color: lawngreen;
 
     width: 51%;
@@ -6,4 +9,48 @@
     border-radius: 5%;
     padding: 1rem;
     box-shadow: -0.4rem 0.4rem black;
+}
+
+.forms div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.forms input:nth-child(1),
+.forms input:nth-child(3), 
+.forms textarea { 
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.forms input:nth-child(1),
+.forms input:nth-child(2) {
+    width: 15rem;
+}
+
+.forms select, 
+.forms textarea {
+    width:100%;
+}
+
+.forms textarea {
+    height: 16rem;
+}
+
+.forms input {
+    width: 100%;
+}
+
+@media (max-width: 768px){
+    .container {
+        margin-top: 2rem;
+        width: 75%;
+        height: 35rem;
+    }
 }

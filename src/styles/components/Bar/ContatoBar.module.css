@@ -9,3 +9,18 @@
     border-radius: 20%; 
     box-shadow: -0.3rem 0.3rem black;
 }
+
+.container img {
+    width: 100%;
+    padding: 15%;
+}
+
+.container img:hover{
+    padding: 10%;
+    cursor: pointer;
+}
+
+.container div {
+    padding-top: 20% ;
+    padding-bottom: 20% ;
+}
