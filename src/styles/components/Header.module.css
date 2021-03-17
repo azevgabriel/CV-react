@@ -8,6 +8,7 @@
     text-align: center;
     border: 2px solid var(--background-color);
     box-shadow: -0.4rem 0.4rem black;
+    overflow-y: scroll;
 }
 
 .containerHeader p {    
