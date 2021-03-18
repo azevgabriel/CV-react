@@ -4,6 +4,7 @@
 
 <p align="center">
  <a href="#Objetivo">Objetivo</a> •
+ <a href="#Acesso">Acesso</a> •
  <a href="#Pré-requisitos">Pré-requisitos</a> • 
  <a href="#Tecnologias">Tecnologias</a> • 
  <a href="#Autores">Autores</a>
@@ -13,6 +14,10 @@
 ### Objetivo
 
 <p align="center">"Fazer um currículo para mim."</p>
+
+### Acesso
+
+Acesso ao [mycurriculum](mycurriculum-azevgabriel.vercel.app/).
 
 ### Pré-requisitos
 
