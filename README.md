@@ -17,7 +17,7 @@
 
 ### Acesso
 
-Acesso ao [mycurriculum](mycurriculum-azevgabriel.vercel.app/).
+Acesso ao [mycurriculum](https://mycurriculum-azevgabriel.vercel.app/).
 
 ### Pré-requisitos
 
