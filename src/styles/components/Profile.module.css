@@ -16,7 +16,6 @@
 
     border-radius: 5%;
     box-shadow: -0.4rem 0.4rem black;
-    overflow-y: scroll;
 }
 
 .containerRowOne {
@@ -57,5 +56,15 @@
         padding: 4%;
         width: 75%;
         height: 35rem;
+    }
+}
+
+@media (max-width: 420px){
+    .containerBottom {
+        height: 40%; 
+    }
+    .container {
+        width: 95%;
+        height: 30rem;
     }
 }

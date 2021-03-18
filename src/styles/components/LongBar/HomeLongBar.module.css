@@ -10,3 +10,7 @@
     border-radius: 20%; 
     box-shadow: -0.3rem 0.3rem black;
 }
+
+.container p {
+    font-size: 1rem;
+}

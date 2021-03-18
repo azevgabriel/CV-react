@@ -37,3 +37,9 @@
         margin-bottom: 2rem;
     }
 }
+
+@media (max-height: 610px){
+    .container {
+        height: 100%;
+    }
+}

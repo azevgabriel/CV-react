@@ -46,3 +46,9 @@
     background-color: var(--background-color03);
     width: 100%;
 }
+
+@media (max-width: 420px){
+    .containerHeader nav ul {
+        flex-direction: column;
+    }
+}

@@ -8,7 +8,6 @@
     padding: 1rem;
     box-shadow: -0.4rem 0.4rem black;
     overflow-y: scroll;
-
 }
 
 @media (max-width: 768px){
@@ -16,5 +15,13 @@
         margin-top: 2rem;
         width: 75%;
         height: 35rem;
+    }
+}
+
+@media (max-width: 420px){
+    .container {
+        margin-top: 2rem;
+        width: 95%;
+        height: 30rem;
     }
 }

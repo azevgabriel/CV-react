@@ -21,6 +21,7 @@
     align-items: center;
     height: 40%;
     border: .3rem dotted blue;
+    overflow-y: scroll;
 }
 
 .formationItemContent {
@@ -49,5 +50,13 @@
         margin-top: 2rem;
         width: 75%;
         height: 35rem;
+    }
+}
+
+@media (max-width: 420px){
+    .container {
+        margin-top: 2rem;
+        width: 95%;
+        height: 30rem;
     }
 }
