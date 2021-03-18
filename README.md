@@ -1,7 +1,4 @@
-<h2 align="center">Página Inicial</h1>
-<img src="public/img/Inicial.png">
-<h2 align="center">Onclick no Sobre</h1>
-<img  src="public/img/Sobre.png">
+<img  src="public/gif/intro.gif">
 
 <h1 align="center">Exemple curriculum</h1>
 

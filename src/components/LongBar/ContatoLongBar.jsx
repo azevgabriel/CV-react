@@ -4,7 +4,7 @@ export const ContatoLongBar = () => {
      
     return (   
       <div className={styles.container}>
-          
+        Hello World!
       </div>
     );
 }
