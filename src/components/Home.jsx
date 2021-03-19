@@ -14,7 +14,6 @@ const Home = () => {
             <p><strong>- Formação:</strong>: Formação acadêmica, cursos e afins.</p>
             <p><strong>- Contato:</strong> Para enviar uma mensagem direta para meu e-mail.</p>
             <br/>
-            <p>Além da barra de navegação, os dois ícones de redes sociais são botões para redirecionamento  direto para as respectivas redess.</p>
         </div>
     );
 }

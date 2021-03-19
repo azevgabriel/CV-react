@@ -1,6 +1,6 @@
 .container {
     background-color: chocolate;
-
+    height: 28rem;
     width: 51%;
     border: 2px solid var(--background-color02);
     border-radius: 5%;

@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     background-color: lawngreen;
-
+    height: 28rem;
     width: 51%;
     border: 2px solid var(--background-color02);
     border-radius: 5%;

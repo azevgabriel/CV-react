@@ -30,11 +30,14 @@ const Formacao = () => {
             <div className={styles.formationItem}>
                 <div className={styles.formationItemContent}>
                     <h3>Bacharelado em Engenharia de Computação</h3>
-                    <h4>IFSULDEMINAS – Campus Poços de Caldas</h4>
+                    <a href="https://portal.pcs.ifsuldeminas.edu.br/">IFSULDEMINAS – Campus Poços de Caldas</a>
                     <p>Cursando: 2018 até 2023 | 7º Período</p>
                     <p>Duração: 5 Anos</p>
                 </div>
-                <p className={styles.formationItemLink}>Link do Campus: <a href="https://portal.pcs.ifsuldeminas.edu.br/">IFSULDEMINAS - Poços de Caldas</a></p>
+                <div className={styles.buttons}>
+                    <button disabled>Anterior</button> 
+                    <button disabled>Próximo</button> 
+                </div>
             </div>
             <div className={styles.formationItem}>
                 {(courses == 0) && (
@@ -76,7 +79,7 @@ const Formacao = () => {
                 {(courses == 4) && (
                     <>
                         <div className={styles.formationItemContent}>
-                            <h3>Linux: A introdução ao sistema operacional</h3>
+                            <h3>Linux: A introdução ao SO</h3>
                             <h4>Digital Innovation One</h4>
                             <p>Finalizado: 2021 | Duração: 10 horas</p>
                         </div>

@@ -35,12 +35,12 @@ const Contato = () => {
                     <input type="text" id="nome" name="nome" placeholder="Nome da pessoa..." onChange={handleInputChange} />
                 </div>
                 <label htmlFor="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" placeholder="Escreva algo..." className="textArea" onChange={handleInputChange}></textarea>
+                <textarea id="mensagem" value="Estou trabalhando no Back end, essa parte é mera ilustrativa. Por enquanto me contate via redes ou e-mail." name="mensagem" placeholder="Escreva algo..." className="textArea" onChange={handleInputChange}></textarea>
                 <div>
                     <label htmlFor="anexo">Anexo:</label>
-                    <input type="file" id="anexo" name="anexo" />
+                    <input type="file" disabled id="anexo" name="anexo" />
                 </div>
-                <input type="submit" value="Enviar" onSubmit={handleFormSubmit}/>     
+                <input type="submit" disabled value="Enviar" onSubmit={handleFormSubmit}/>     
              </form>
         </div>
     );
